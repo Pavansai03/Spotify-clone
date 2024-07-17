@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><body>
+    <nav class="navbar">
+        <img id="logo"  src="logo.png">
+        <h3 id="title">Spotify</h3>
+        <p id="home">Home</p>
+        <P id="about">About</P>
+    </nav>
+    <div class="container">
+        <div class="main">
+            <h2 id="Ar" >Best of Arijith Singh</h2>
+            <div class="album">
+                <div class="song">
+                    <h1 id="Id_1">1.</h1>
+                    <p>Channa Mereya</p>
+                    <span id="duration_1">4:49</span>
+                    <span id="song_1" class="playbutton"><i class="songItemPlay fa-play-circle far"></i></span>
+                </div>
+                <div class="song">
+                     <h1 id="Id_2">2.</h1>
+                    <p>Deva Deva</p>
+                    <span id="duration_2">4:39</span>
+                    <span id="song_2" class="playbutton"><i class="far songItemPlay fa-play-circle"></i></span>
+                </div>
+                <div class="song">
+                     <h1 id="Id_3">3.</h1>
+                    <p>Agar Tum Sath Ho</p>
+                    <span id="duration_3">5:41</span>
+                    <span id="song_3" class="playbutton"><i class="far songItemPlay fa-play-circle"></i></span>
+                </div>
+                <div class="song">
+                     <h1 id="Id_4">4.</h1>
+                    <p>Kesariya</p>
+                    <span id="duration_4">4:28</span>
+                    <span id="song_4" class="playbutton"><i class="far songItemPlay fa-play-circle"></i></span>
+                </div>
+                <div class="song">
+                     <h1 id="Id_5">5.</h1>
+                    <p>Tum Hi Ho</p>
+                    <span id="duration_5">4:22</span>
+                    <span id="song_5" class="playbutton"><i class="far songItemPlay fa-play-circle"></i></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="controls">
+        <div class="range">
+            <span id="songDuration" style="margin-right: 1vw;">00:00</span>
+           <input type="range" value="0" id="progress">
+           <span id="songLength" style="margin-left: 1vw;">00:00</span>
+        </div>
+        <div class="finalbar">
+            <div class="finalbarside">
+                <img src="Ar.jpg" alt="playing" width="75vw" id="footerImg">
+                <div class="songNameDisplay"></div>
+                
+            </div>
+             <div class="buttons">
+                <span class="playcontrols"><i id="backwardbtn" class="fa-solid fa-backward-step" style='font-size:25px'></i></span>
+                <span class="playcontrols"><i  class="far fa-play-circle" style='font-size:25px' id="playbtn"></i></span>
+                <span class="playcontrols"><i id="forwardbtn" class="fa-solid fa-forward-step" style='font-size:25px'></i></span>
+            </div>
+        </div>
+        </div>
+           
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/e782ebb853.js" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>

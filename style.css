@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
+#logo{
+   width: 50px;
+   height: 70%;
+   margin-left: 7px;
+   margin-right: 4px;
+}
+#home,#about{
+    margin: 10px;
+}
+#title{
+  font-family: "Hind", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-right: 10px;
+}
+#home,#about{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+   width: 70vw;
+   height: 70vh;
+   background-color: black;
+   border-radius: 10px;
+   position: relative;
+   /* bottom: 50px; */
+   background-image: url("Ar.jpg");
+   background-size: 70vw 70vh;
+   
+}
+#Ar{
+    color: white;
+    font-family: "Playwrite NZ", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin: 2vw;
+}
+.song{
+    width:40%;
+    height:7vh;
+    background-color: white;
+    margin: 10px;
+    border-radius: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    transition: transform 0.2s;
+}
+.song:hover{
+   transform: scale(1.1);
+}
+
+#Id_2{
+    position: relative;
+    right: 0.35vw;
+}
+#song_2{
+    position: relative;
+    left: 0.3vw;
+}
+#Id_3{
+    position: relative;
+    left: 0.1vw;
+}
+#song_3{
+    position: relative;
+    right: 0.3vw;
+}
+#Id_4{
+    position: relative;
+    right: 0.5vw;
+}
+#song_4{
+    position: relative;
+    left:0.3vw;
+}
+#Id_5{
+    position: relative;
+    right: 0.3vw;
+}
+#song_5{
+    position: relative;
+    left:0.1vw;
+}
+
+
+.gif{
+    width: 10%;
+    animation-play-state: paused;
+}
+.controls{
+    height: 13vh;
+    background-color: black;
+    position: sticky;
+}
+#progress{
+    width: 80vw;
+    cursor: pointer;
+    accent-color: white;
+    text-decoration: none;
+
+}
+#progress:hover{
+    accent-color: rgb(20, 178, 20);
+
+}
+.finalbar{
+    display: flex;
+}
+.finalbarside{
+    display: flex;
+    width: 45%;
+    color: white;
+}
+
+.range{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    
+}
+.range span{
+    color: white;
+}
+.playbutton{
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: start;
+    width: 55%;
+}
+.playcontrols{
+    margin: 10px;
+    
+}
+#backwardbtn,#playbtn,#forwardbtn{
+    color: white;
+    cursor: pointer;
+}
+
+
+.songNameDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+}
+.finalbarside img {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+#duration_2{
+    position: relative;
+    left: 0.5vw;
+}
+#duration_3{
+    position: relative;
+    right: 0.7vw;
+}
+#duration_4{
+    position: relative;
+    left: 0.8vw;
+}
+#duration_5{
+    position: relative;
+    left: 0.4vw;
+}
+    
+
+
